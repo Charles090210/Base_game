@@ -17,17 +17,8 @@ repeat(2){	/// @DnDAction : YoYo Games.Random.Get_Random_Number
 	/// @DnDParent : 27559D8F
 	/// @DnDArgument : "var" "enemy_y"
 	/// @DnDArgument : "var_temp" "1"
-	/// @DnDArgument : "max" "-800"
-	var enemy_y = (random_range(0, -800));
-
-	/// @DnDAction : YoYo Games.Instances.Set_Sprite
-	/// @DnDVersion : 1
-	/// @DnDHash : 309B93C0
-	/// @DnDParent : 27559D8F
-	/// @DnDArgument : "spriteind" "spr_minion"
-	/// @DnDSaveInfo : "spriteind" "spr_minion"
-	sprite_index = spr_minion;
-	image_index = 0;
+	/// @DnDArgument : "max" "800"
+	var enemy_y = (random_range(0, 800));
 
 	/// @DnDAction : YoYo Games.Instances.Create_Instance
 	/// @DnDVersion : 1

@@ -1,26 +1,40 @@
-/// @DnDAction : YoYo Games.Mouse & Keyboard.If_Key_Pressed
+/// @DnDAction : YoYo Games.Mouse & Keyboard.If_Key_Down
 /// @DnDVersion : 1
-/// @DnDHash : 52BD3DD5
+/// @DnDHash : 616E390A
 /// @DnDArgument : "key" "ord("D")"
-var l52BD3DD5_0;l52BD3DD5_0 = keyboard_check_pressed(ord("D"));if (l52BD3DD5_0){	/// @DnDAction : YoYo Games.Movement.Add_Motion
+var l616E390A_0;l616E390A_0 = keyboard_check(ord("D"));if (l616E390A_0){	/// @DnDAction : YoYo Games.Movement.Set_Direction_Free
+	/// @DnDVersion : 1
+	/// @DnDHash : 5D613349
+	/// @DnDParent : 616E390A
+	/// @DnDArgument : "direction" "-180"
+	direction = -180;
+
+	/// @DnDAction : YoYo Games.Movement.Add_Motion
 	/// @DnDVersion : 1
 	/// @DnDHash : 101D4226
-	/// @DnDParent : 52BD3DD5
-	/// @DnDArgument : "dir" "image_angle"
-	/// @DnDArgument : "speed" "4"
-	motion_add(image_angle, 4);}
+	/// @DnDParent : 616E390A
+	/// @DnDArgument : "dir" "direction"
+	/// @DnDArgument : "speed" "1"
+	motion_add(direction, 1);}
 
-/// @DnDAction : YoYo Games.Mouse & Keyboard.If_Key_Pressed
+/// @DnDAction : YoYo Games.Mouse & Keyboard.If_Key_Down
 /// @DnDVersion : 1
-/// @DnDHash : 7F8AAF68
+/// @DnDHash : 4F18B22D
 /// @DnDArgument : "key" "ord("A")"
-var l7F8AAF68_0;l7F8AAF68_0 = keyboard_check_pressed(ord("A"));if (l7F8AAF68_0){	/// @DnDAction : YoYo Games.Movement.Add_Motion
+var l4F18B22D_0;l4F18B22D_0 = keyboard_check(ord("A"));if (l4F18B22D_0){	/// @DnDAction : YoYo Games.Movement.Set_Direction_Free
+	/// @DnDVersion : 1
+	/// @DnDHash : 66B1A919
+	/// @DnDParent : 4F18B22D
+	/// @DnDArgument : "direction" "-180"
+	direction = -180;
+
+	/// @DnDAction : YoYo Games.Movement.Add_Motion
 	/// @DnDVersion : 1
 	/// @DnDHash : 78214DAF
-	/// @DnDParent : 7F8AAF68
-	/// @DnDArgument : "dir" "image_angle"
-	/// @DnDArgument : "speed" "-4"
-	motion_add(image_angle, -4);}
+	/// @DnDParent : 4F18B22D
+	/// @DnDArgument : "dir" "direction"
+	/// @DnDArgument : "speed" "1"
+	motion_add(direction, 1);}
 
 /// @DnDAction : YoYo Games.Movement.Wrap_Room
 /// @DnDVersion : 1
