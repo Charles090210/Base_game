@@ -1,6 +1,6 @@
 /// @DnDAction : YoYo Games.Random.Get_Random_Number
 /// @DnDVersion : 1
-/// @DnDHash : 24A7FDA7
+/// @DnDHash : 40A35B7E
 /// @DnDArgument : "var" "enemy_x"
 /// @DnDArgument : "var_temp" "1"
 /// @DnDArgument : "max" "800"
@@ -8,7 +8,7 @@ var enemy_x = (random_range(0, 800));
 
 /// @DnDAction : YoYo Games.Random.Get_Random_Number
 /// @DnDVersion : 1
-/// @DnDHash : 7B55C0A2
+/// @DnDHash : 7F6320FF
 /// @DnDArgument : "var" "enemy_y"
 /// @DnDArgument : "var_temp" "1"
 /// @DnDArgument : "max" "800"
@@ -16,7 +16,7 @@ var enemy_y = (random_range(0, 800));
 
 /// @DnDAction : YoYo Games.Instances.Create_Instance
 /// @DnDVersion : 1
-/// @DnDHash : 64D0D657
+/// @DnDHash : 7F16B0BB
 /// @DnDArgument : "xpos" "enemy_x"
 /// @DnDArgument : "ypos" "enemy_y"
 /// @DnDArgument : "objectid" "obj_enemy"
@@ -25,12 +25,12 @@ instance_create_layer(enemy_x, enemy_y, "Instances", obj_enemy);
 
 /// @DnDAction : YoYo Games.Instances.Destroy_Instance
 /// @DnDVersion : 1
-/// @DnDHash : 70B2B11A
+/// @DnDHash : 1C45B83B
 instance_destroy();
 
 /// @DnDAction : YoYo Games.Random.Get_Random_Number
 /// @DnDVersion : 1
-/// @DnDHash : 7520F455
+/// @DnDHash : 55B3E0B0
 /// @DnDArgument : "var" "minion_x"
 /// @DnDArgument : "var_temp" "1"
 /// @DnDArgument : "max" "800"
@@ -38,7 +38,7 @@ var minion_x = (random_range(0, 800));
 
 /// @DnDAction : YoYo Games.Random.Get_Random_Number
 /// @DnDVersion : 1
-/// @DnDHash : 3FE1934F
+/// @DnDHash : 37021C70
 /// @DnDArgument : "var" "minion_y"
 /// @DnDArgument : "var_temp" "1"
 /// @DnDArgument : "max" "800"
@@ -46,7 +46,7 @@ var minion_y = (random_range(0, 800));
 
 /// @DnDAction : YoYo Games.Instances.Create_Instance
 /// @DnDVersion : 1
-/// @DnDHash : 0821C92B
+/// @DnDHash : 50A9FC84
 /// @DnDArgument : "xpos" "minion_x"
 /// @DnDArgument : "ypos" "minion_y"
 /// @DnDArgument : "objectid" "obj_minion"
