@@ -1,3 +1,11 @@
+/// @DnDAction : YoYo Games.Common.Set_Global
+/// @DnDVersion : 1
+/// @DnDHash : 77D60F10
+/// @DnDArgument : "value" "1"
+/// @DnDArgument : "value_relative" "1"
+/// @DnDArgument : "var" "global.collision"
+global.collision += 1;
+
 /// @DnDAction : YoYo Games.Random.Get_Random_Number
 /// @DnDVersion : 1
 /// @DnDHash : 24A7FDA7
